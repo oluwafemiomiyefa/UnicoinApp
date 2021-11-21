@@ -1,0 +1,181 @@
+
+
+p {
+  line-height: 1.5;
+  font-family: "Lexend Deca" "Serif";
+  /* text-align: center; */
+}
+
+/* .ptag {
+    font-size: 1rem;
+    font-family: "Lexend Deca", "Mono Serif";
+    width: 300px;
+    background-color: rgba(231, 235, 243, 0.87);
+} */
+
+a {
+  text-decoration: none;
+  color: #4caf50;
+}
+
+/* a:hover {
+  /* background-color: white; */
+
+/* SIGN UP FORM */
+.formdiv {
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(12, 36, 82, 0.808);
+  padding: 20px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(67, 76, 116);
+}
+
+.maindi {
+  text-align: center;
+  padding: 70px;
+  font-size: 2rem;
+  color: rgb(67, 76, 116);
+}
+
+.footer {
+  padding: 40px;
+  font-family: "Lexend Deca";
+  font-size: 10px;
+}
+
+button:hover {
+  background-color: rgb(67, 76, 116);
+}
+
+@media (max-width: 724px) {
+    body {
+        background-color: #4caf50;
+        height: 100vh;
+      }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 16rem;
+    padding: 2rem;
+    font-family: "Big Shoulder Display", "serif";
+  }
+
+  .apcediv {
+    background-color: rgba(255, 255, 255, 0.144);
+    width: 50%;
+    padding: 10px 18px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+  }
+
+  .wallddiv {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px;
+      justify-content: center;
+      
+  }
+  .bigdiv {
+    background-color: rgba(12, 36, 82, 0.808);
+    border: solid 2px white;
+    border-radius: 2rem;
+    height: 100%;
+    color: white;
+    text-align: center;
+  }
+  button {
+    width: 70%;
+    background-color: #4caf50;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    color: white;
+    font-size: 1rem;
+    font-family: "Lexend Deca" "Serif";
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 360px) {
+
+    body {
+        background-color: #4caf50;
+        height: 110vh;
+      }
+
+  h1 {
+    margin-top: 20px;
+    font-size: 24px;
+    padding: 4rem;
+    font-family: "Big Shoulder Display", "serif";
+  }
+
+  .apcediv {
+    background-color: rgba(255, 255, 255, 0.144);
+    /* width: 50%; */
+    padding: 10px 18px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+  }
+  .wallddiv {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;  
+}
+.bigdiv {
+    background-color: rgba(12, 36, 82, 0.808);
+    border: solid 2px white;
+    border-radius: 2rem;
+    height: 245%;
+    color: white;
+    text-align: center;
+  }
+  button {
+    width: 30%;
+    background-color: #4caf50;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    color: white;
+    font-size: 1rem;
+    font-family: "Lexend Deca" "Serif";
+    font-weight: 400;
+  }
+}
